@@ -2,7 +2,11 @@
 
 ```powershell
 [guid]::NewGuid()
+```
 
+### Example
+```powershell
+PS>  [guid]::NewGuid()
 
 Guid
 ----
