@@ -12,7 +12,9 @@ You can use the ASCII characters and symbols between 1 and 255, or just a subset
 
 A - Z == 65 - 90    
 a - z == 97 - 122   
-0 - 9 == 48 - 57
+0 - 9 == 48 - 57   
+\# == 35    
+$ == 36   
 
 e.g. generate an uppercase letter, a random ASCII character, then a lowercase symbol    
 =CHAR(RANDBETWEEN(65,90))&CHAR(RANDBETWEEN(1,255))&CHAR(RANDBETWEEN(65,90))    
