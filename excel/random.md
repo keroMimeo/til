@@ -11,7 +11,7 @@
 You can use the ASCII characters and symbols between 1 and 255, or just a subset.   
 
 A - Z == 65 - 90    
-a - z == x - x   
+a - z == 97 - 122   
 
 
 e.g. generate an uppercase letter, a random ASCII character, then a lowercase symbol    
