@@ -15,6 +15,8 @@ a - z == 97 - 122
 0 - 9 == 48 - 57   
 \# == 35    
 $ == 36   
+% == 37   
+& == 38   
 
 e.g. generate an uppercase letter, a random ASCII character, then a lowercase symbol    
 =CHAR(RANDBETWEEN(65,90))&CHAR(RANDBETWEEN(1,255))&CHAR(RANDBETWEEN(65,90))    
