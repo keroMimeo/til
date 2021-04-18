@@ -5,6 +5,8 @@
 | =RAND()| Generates number between 0 and 1  |
 | =RANDBETWEEN(1,11) | Generates numbers between 1 and 11  |
 | =CHAR(RANDBETWEEN(65,90)) | Generates an ASCII character between A and Z  |
+| =CHAR(RANDBETWEEN(97,122)) | Generates an ASCII character between a and z  |
+| =CHAR(RANDBETWEEN(35,38)) | Generates one of these ASCII characters: #,$,%,&  |
 
 
 ### Add additional characters and symbols    
