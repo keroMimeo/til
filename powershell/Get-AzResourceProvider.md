@@ -8,5 +8,5 @@
 [Microsoft Resource Providers and Types](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types)
 
 
-![image name](/../images/resourceexplorer.png)
+![image name](../images/resourceexplorer.png)
 

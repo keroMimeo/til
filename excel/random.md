@@ -5,14 +5,20 @@
 | =RAND()| Generates number between 0 and 1  |
 | =RANDBETWEEN(1,11) | Generates numbers between 1 and 11  |
 | =CHAR(RANDBETWEEN(65,90)) | Generates an ASCII character between A and Z  |
+| =CHAR(RANDBETWEEN(97,122)) | Generates an ASCII character between a and z  |
+| =CHAR(RANDBETWEEN(35,38)) | Generates one of these ASCII characters: #,$,%,&  |
 
 
 ### Add additional characters and symbols    
 You can use the ASCII characters and symbols between 1 and 255, or just a subset.   
 
 A - Z == 65 - 90    
-a - z == x - x   
-
+a - z == 97 - 122   
+0 - 9 == 48 - 57   
+\# == 35    
+$ == 36   
+% == 37   
+& == 38   
 
 e.g. generate an uppercase letter, a random ASCII character, then a lowercase symbol    
 =CHAR(RANDBETWEEN(65,90))&CHAR(RANDBETWEEN(1,255))&CHAR(RANDBETWEEN(65,90))    
