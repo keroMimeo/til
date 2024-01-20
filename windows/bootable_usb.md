@@ -9,7 +9,7 @@ clean   # removes all partitions from selected drive
 create partition primary
 select partition 1
 active
-format fs=ntfs
+format fs=ntfs quick
 assign
 exit
 ```
