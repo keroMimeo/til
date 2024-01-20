@@ -9,7 +9,7 @@ clean   # removes all partitions from selected drive
 create partition primary
 select partition 1
 active
-format fs=ntfs label=win11 quick
+format fs=fat32 label=win11 quick  # fat32 required for UEFI boot
 assign
 exit
 ```
