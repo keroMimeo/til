@@ -8,8 +8,7 @@ select disk [x]   # Where x is the USB drive letter
 clean   # removes all partitions from selected drive
 create partition primary size=32000
 select partition 1
-active
-format fs=fat32 label=win11 quick  # fat32 required for UEFI boot
+format fs=exfat label=win11 quick  # exfat required for UEFI boot
 assign
 exit
 ```
