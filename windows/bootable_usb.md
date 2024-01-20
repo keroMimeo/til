@@ -23,7 +23,7 @@ bootsect /nt60 d:  # where d: is the USB drive
 
 Copy all installation files to the USB drive
 ```PowerShell
-xcopy g:\*.*  /s /h /f d:\
+xcopy g:\*.*  /e /h /f d:\
 
 /s - Copies directories and subdirectories except empty ones.
 /h - Copies hidden and system files.
