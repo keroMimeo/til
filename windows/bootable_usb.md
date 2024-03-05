@@ -24,7 +24,7 @@ Copy all installation files to the USB drive
 ```PowerShell
 xcopy g:\*.*  /e /h /f d:\
 
-/s - Copies directories and subdirectories except empty ones.
+/e - Copies all subdirectories, even if they're empty. Use /e with the /s and /t command-line options.
 /h - Copies hidden and system files.
 /f - Displays full source and destination filenames while copying.
 ```
