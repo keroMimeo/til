@@ -16,9 +16,33 @@ pkg update && pkg upgrade
 ```
 
 
+## Applications to install
+
+- [ ] Firefox
+  sudo pkg install 
+
+- [ ] Git
+  sudo pkg install git
+
+- [ ] Visual studio code
+  sudo pkg install vscode
+
+
+
+
+
+
+
+
 
 
 ### Configuration  
+
+
+
+
+
+
 Terminal / General  
 
 cursor shape = underline;  select 'cursor blinks'  
