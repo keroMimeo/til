@@ -30,32 +30,32 @@ pkg update && pkg upgrade
 - [x] Chrome
   sudo pkd install chromium
 
- - [ ] Minecraft
+ - [ ] Minecraft  
 
-On FreeBSD you need to install something like Prism Launcher.
-  pkg install prismlauncher
+On FreeBSD you need to install something like Prism Launcher.  
+  pkg install prismlauncher  
 
-Java runtime
-  pkg install openjdk17
+Java runtime  
+  pkg install openjdk17  
 
-Audio and input
-  sudo pkg install openal-soft sdl2
+Audio and input  
+  sudo pkg install openal-soft sdl2  
 
 
 After launching "Prism Launcher" go to Settings/Java and ensure the path points to the correct OpenJDK version.  This is usually at /usr/local/openjdk17/bin/java.  Make sure that "use system installation of LWJGL" is selected.  
 
 
 
-Install graphics drivers  
+Install graphics drivers   
   sudo pkg install drm-kmod  
   
 Enable graphics driver at boot:  
-  add **lkd_list='i915kms'** to /etc/rc.conf
+  add **lkd_list='i915kms'** to /etc/rc.conf  
 
-Ensure your user is in the Video group
-  pw groupmod video -m <username>
-  pw groupmod render -m <username>
-
+Ensure your user is in the Video group  
+  pw groupmod video -m <username>  
+  pw groupmod render -m <username>  
+ 
 
 
 
